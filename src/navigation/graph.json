@@ -1,0 +1,371 @@
+{
+  "id": 1,
+  "name": "Кафедра ПОАС",
+  "description": "Этаж кафедры ПОАС. Учебно-лабораторный корпус \"В\". 9 этаж.",
+  "image": "",
+  "placeObjects": [
+    {
+      "id": 1,
+      "title": "Ауд. 901",
+      "description": "room #901",
+      "type": "room",
+      "markers": [
+        {
+          "id": 64,
+          "title": "m_901_1",
+          "primary": false,
+          "relationships": [
+            {
+              "to": "m_Ladder",
+              "directions": "[270]"
+            },
+            {
+              "to": "m_908",
+              "directions": "[170]"
+            },
+            {
+              "to": "m_901_2",
+              "directions": "[90](Пройдите вдоль стены)"
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "title": "m_901_2",
+          "relationships": [
+            {
+              "to": "m_901_1",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_907",
+              "directions": "[190]"
+            },
+            {
+              "to": "m_906",
+              "directions": "[170]"
+            },
+            {
+              "to": "m_902_1",
+              "directions": "[90](Пройдите вдоль стены)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ауд. 902",
+      "description": "room #902",
+      "type": "room",
+      "markers": [
+        {
+          "id": 66,
+          "title": "m_902_1",
+          "relationships": [
+            {
+              "to": "m_901_2",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_902_2",
+              "directions": "[90](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_w_WC",
+              "directions": "[190]"
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "title": "m_902_2",
+          "primary": false,
+          "relationships": [
+            {
+              "to": "m_902_1",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_902_3",
+              "directions": "[90](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_Elevator",
+              "directions": "[180]"
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "title": "m_902_3",
+          "primary": false,
+          "relationships": [
+            {
+              "to": "m_902_2",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_903",
+              "directions": "[90](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_m_WC",
+              "directions": "[170]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ауд. 903",
+      "description": "room #903",
+      "type": "room",
+      "markers": [
+        {
+          "id": 69,
+          "title": "m_903",
+          "relationships": [
+            {
+              "to": "m_902_3",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_PP_1",
+              "directions": "[100]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Ауд. 904",
+      "description": "room #904",
+      "type": "room",
+      "markers": [
+        {
+          "id": 70,
+          "title": "m_904",
+          "relationships": [
+            {
+              "to": "m_905",
+              "directions": "[180]"
+            },
+            {
+              "to": "m_PP_1",
+              "directions": "[260]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ауд. 905",
+      "description": "room #905",
+      "type": "room",
+      "markers": [
+        {
+          "id": 71,
+          "title": "m_905",
+          "relationships": [
+            {
+              "to": "m_904",
+              "directions": "[180]"
+            },
+            {
+              "to": "m_PP_1",
+              "directions": "[90]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ауд. 906",
+      "description": "room #906",
+      "type": "room",
+      "markers": [
+        {
+          "id": 242,
+          "title": "m_906",
+          "relationships": [
+            {
+              "to": "m_w_WC",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_907",
+              "directions": "[90](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_901_2",
+              "directions": "[170]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ауд. 907",
+      "description": "room #907",
+      "type": "room",
+      "markers": [
+        {
+          "id": 243,
+          "title": "m_907",
+          "relationships": [
+            {
+              "to": "m_906",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_908",
+              "directions": "[90](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_901_2",
+              "directions": "[190]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Ауд. 908",
+      "description": "room #908",
+      "type": "room",
+      "markers": [
+        {
+          "id": 244,
+          "title": "m_908",
+          "relationships": [
+            {
+              "to": "m_907",
+              "directions": "[270](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_Ladder",
+              "directions": "[100]"
+            },
+            {
+              "to": "m_901_1",
+              "directions": "[170]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Мужской туалет",
+      "description": "Male WC",
+      "type": "wc",
+      "markers": [
+        {
+          "id": 275,
+          "title": "m_m_WC",
+          "relationships": [
+            {
+              "to": "m_902_3",
+              "directions": "[170]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Женский туалет",
+      "description": "Female WC",
+      "type": "wc",
+      "markers": [
+        {
+          "id": 276,
+          "title": "m_w_WC",
+          "relationships": [
+            {
+              "to": "m_906",
+              "directions": "[90](Пройдите вдоль стены)"
+            },
+            {
+              "to": "m_902_1",
+              "directions": "[190]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Лифтовая",
+      "description": "Elevator room",
+      "type": "elevator",
+      "markers": [
+        {
+          "id": 281,
+          "title": "m_Elevator",
+          "relationships": [
+            {
+              "to": "m_902_2",
+              "directions": "[0](Через дверь)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Лестница",
+      "description": "Ladder",
+      "type": "ladder",
+      "markers": [
+        {
+          "id": 282,
+          "title": "m_Ladder",
+          "relationships": [
+            {
+              "to": "m_901_1",
+              "directions": "[120]"
+            },
+            {
+              "to": "m_908",
+              "directions": "[210]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Wall",
+      "description": "service place object to assign path point markers",
+      "type": "service",
+      "markers": [
+        {
+          "id": 283,
+          "title": "m_PP_1",
+          "relationships": [
+            {
+              "to": "m_903",
+              "directions": "[140]"
+            },
+            {
+              "to": "m_904",
+              "directions": "[220]"
+            },
+            {
+              "to": "m_905",
+              "directions": "[330]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
