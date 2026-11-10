@@ -15,7 +15,7 @@ export default new Router({
       meta: {
         showInMenu: true,
         icon: 'home',
-        title: 'Басты бет',
+        title: 'Домой',
       }
     },
     {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.fa2eeca72df496bc7f9e44123e295842.js"
+  "precache-manifest.e6b818717b2178d3b49364bcba35cffc.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ar_nav"});

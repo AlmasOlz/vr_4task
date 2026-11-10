@@ -5,7 +5,7 @@ import Vuetify from 'vuetify';
 import router from './router';
 import './plugins/vuetify';
 // Static course build: avoid serving an outdated camera application from a worker.
-import 'roboto-fontface/css/roboto/roboto-fontface.css';
+// Use the system sans-serif fallback immediately; avoid invisible text while webfonts load.
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@/css/main.css'

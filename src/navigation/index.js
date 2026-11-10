@@ -39,11 +39,11 @@ function shortestPath(startId, goalId) {
 }
 
 function directionText(degrees) {
-  if (degrees < 23 || degrees >= 338) return 'Тіке жүріңіз';
-  if (degrees < 68) return 'Сәл оңға бұрылыңыз';
-  if (degrees < 113) return 'Оңға бұрылыңыз';
-  if (degrees < 248) return 'Кері бұрылыңыз';
-  if (degrees < 293) return 'Солға бұрылыңыз';
-  return 'Сәл солға бұрылыңыз';
+  if (degrees < 23 || degrees >= 338) return 'Пройдите прямо';
+  if (degrees < 68) return 'Повернитесь немного правее';
+  if (degrees < 113) return 'Повернитесь направо';
+  if (degrees < 248) return 'Развернитесь';
+  if (degrees < 293) return 'Повернитесь налево';
+  return 'Повернитесь немного левее';
 }
 module.exports = { graph, nodes, goals, shortestPath, directionText };
